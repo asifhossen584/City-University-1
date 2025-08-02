@@ -1,0 +1,174 @@
+. {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #4d5975;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+   height: 150px;
+   width: 350px;
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+}
+.city-logo {
+  height: 150px;
+  width: 200px;
+}
+.text h3 {
+  height: 24px;
+  width: 350px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.user p {
+  font-size: 1.1rem;
+}
+.user {
+  width: 308px;
+  height: 436px;
+  background-color: white;
+  border-radius: 18px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+.user-name {
+  height: 66px;
+  width: 308px;
+}
+
+.user-name-1 {
+  height: 24px;
+  width: 282px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  
+
+}
+.u-t {
+  margin-bottom: 4px;
+}
+
+.user-pass {
+  height: 66px;
+  width: 308px;
+}
+.u-p {
+  margin-bottom: 4px;
+}
+.show {
+  display: flex;
+}
+.user-pass-1 {
+  height: 24px;
+  width: 241px;
+  border: 1px solid #ced4da;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+}
+.user-pass-1:focus {
+  border-color: transparent;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+  background-color: #f0f8ff;
+}
+
+.show-1{
+  height: 24px;
+  width: 16px;
+  border: 1px solid #ced4da;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.user-role {
+  height: 66px;
+  width: 308px;
+}
+.u-r {
+  margin-bottom: 4px;
+}
+.role-1 {
+  height: 38px;
+  width: 308px;
+  padding: 6px 12px;
+ 
+
+}
+
+.user-pera {
+  height: 38px;
+  width: 308px;
+  margin-bottom: 15px;
+}
+.user-pera-a {
+  color: red;
+  
+}
+.user-login {
+  height: 38px;
+  width: 308px;
+}
+.user-login-1 {
+  height: 38px;
+  width: 308px;
+  padding: 6px 12px;
+  background-color: #88bf32;
+  color: white;
+}
+.user-fp a{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  color: #b5af18;
+}
+.outer-1 {
+  width: 308px;
+  text-align: center;
+}
+
+.outer-2 {
+  width: 308px;
+  text-align: center;
+}
+
+.border {
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  outline: none;
+  
+}
+.border:focus {
+  border-color: transparent;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.6);
+  background-color: #f0f8ff;
+}
+.border-1 {
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+
